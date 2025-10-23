@@ -14,3 +14,14 @@ print("# 0    0 #")
 print("#  ____  #")
 print("##########")
 
+print("How old are you (in years)?")
+Age = input ()
+
+print("How tall are you (in meters)?")
+height = input ()
+
+print("How much do you weigh (in kilograms)?")
+weight = input ()
+
+
+
