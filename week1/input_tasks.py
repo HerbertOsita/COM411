@@ -23,5 +23,4 @@ height = input ()
 print("How much do you weigh (in kilograms)?")
 weight = input ()
 
-
-
+print(f"{name}, you are {Age} years old, your height is {height}cm, and you weigh {weight}kg.")
