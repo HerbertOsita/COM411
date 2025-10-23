@@ -7,3 +7,10 @@ print(f"It is nice to meet you {name}")
 name = input("What is your name?")
 
 print(f"Nice to meet you {name}.")
+
+# Display a box
+print("##########")
+print("# 0    0 #")
+print("#  ____  #")
+print("##########")
+
