@@ -24,3 +24,14 @@ print("How much do you weigh (in kilograms)?")
 weight = input ()
 
 print(f"{name}, you are {Age} years old, your height is {height}cm, and you weigh {weight}kg.")
+
+print ("Please enter the number of lives.")
+lives = input ()
+
+print("Please enter the energy level")
+energy = input ()
+
+print ("Please enter the shield level")
+shield = input ()
+
+print ("Health has been set.")
