@@ -27,4 +27,4 @@ if direction == "left":
     print(f"I am moving in a {direction} direction!")
 elif direction == "right":
     print(f"I am moving in a {direction} direction!")
-
+print()
