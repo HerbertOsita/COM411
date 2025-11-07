@@ -45,7 +45,7 @@ while hellos < len(phrase):
  print("Hi ", end="")
  hellos = hellos + 1
 
-print("Calculating the sum of the first 100 numbers...")
+print("\nCalculating the sum of the first 100 numbers...")
 
 number = 1
 
