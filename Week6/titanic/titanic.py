@@ -9,9 +9,8 @@ def load_data(file_path):
     with open(file_path) as csv_file:
         csv_reader = csv.reader(csv_file)
         headings = next(csv_reader)
-
-        for line in csv_reader:
-            records.append(line)
+        for row in csv_reader:
+            records.append(row)
 
     print("Done!")
 
