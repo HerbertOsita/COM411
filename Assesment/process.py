@@ -3,8 +3,7 @@ import csv
 def load_reviews(path: str) -> list[dict]:
     reviews: list[dict] = []
 
-    with open(path, newline="", encoding=""utf-8")
-as file:
+    with open(path, newline="", encoding="utf-8") as file:
         reader= csv.DictReader(file)
 
         for row in reader:
